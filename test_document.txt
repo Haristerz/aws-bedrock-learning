@@ -1,0 +1,26 @@
+AWS Bedrock is a fully managed service 
+by Amazon Web Services that provides 
+access to foundation models from leading 
+AI companies like Anthropic, Meta, 
+and Amazon itself.
+
+Key features of AWS Bedrock:
+- Access to Claude, Llama, Titan models
+- No infrastructure management needed
+- Pay per API call
+- Enterprise security via IAM
+- Supports RAG with Knowledge Bases
+- Bedrock Agents for agentic workflows
+
+RAG stands for Retrieval Augmented 
+Generation. It allows AI models to 
+answer questions using your own 
+documents and data instead of just 
+their training data.
+
+AI Agents can use tools like:
+- Database queries
+- API calls  
+- Document search
+- Code execution
+To complete complex multi-step tasks.
