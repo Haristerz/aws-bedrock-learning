@@ -1,0 +1,22 @@
+IAM stands for Identity and Access Management.
+It is a core AWS security service that controls
+who can access your AWS resources and what 
+they can do with them.
+
+Key IAM concepts:
+- Users: Individual people who need AWS access
+- Groups: Collection of users with same permissions
+- Roles: Temporary permissions for services
+- Policies: JSON documents defining permissions
+
+Best practices:
+- Never use root account for daily work
+- Always use least privilege principle
+- Enable MFA for all users
+- Use roles instead of access keys in production
+- Rotate access keys regularly
+
+IAM is a global service — not region specific.
+IAM roles are used by EC2, Lambda, ECS to 
+access other AWS services securely without 
+hardcoding credentials.

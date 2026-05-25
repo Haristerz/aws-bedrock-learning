@@ -1,0 +1,29 @@
+AI Agents are autonomous systems that can 
+perceive their environment, make decisions,
+and take actions to achieve specific goals.
+
+How AI Agents work:
+1. User gives a goal or question
+2. Agent thinks about what steps are needed
+3. Agent selects and uses tools
+4. Agent observes the result
+5. Agent repeats until goal is achieved
+
+This is called the ReAct pattern:
+Reason → Act → Observe → Repeat
+
+Tools an AI Agent can use:
+- Search documents (RAG)
+- Query databases (SQL)
+- Call external APIs
+- Send emails or notifications
+- Execute code
+- Browse the web
+
+AWS Bedrock Agents:
+Amazon provides managed AI Agents through
+Bedrock. You define the tools and the agent
+decides when and how to use them.
+
+The agent uses Claude as its brain to 
+reason about which tool to use next.
