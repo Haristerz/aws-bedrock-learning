@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
 .env
+*.pem
 .aws
-requirements.txt
-*.txt
+bedrock-key.pem
